@@ -1,25 +1,51 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
 
-function App() {
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+
+import Navbar from './components/Navbar/navbar'
+
+import Autolender from './components/autolender/Autolender'
+import Loanscheme from './components/loanscheme/Loanscheme'
+import Gallery from './components/gallery/Gallery'
+import Login from './components/loginsignup/Login'
+import Signup from './components/loginsignup/Signup'
+
+import Error from './components/error/Error'
+
+import Footer from './components/footer/Footer'
+
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+    <div>
+
+      <Router>
+
+        <Navbar />
+
+        <Routes>
+
+          <Route path='/' element={<Autolender />} />
+          <Route path='/loanscheme' element={<Loanscheme />} />
+          {/* //no space in element */}
+
+
+          <Route path='/gallery' element={<Gallery />} />
+          <Route path='/login' element={<Login />} />
+          <Route path='/signup' element={<Signup />} />
+
+          <Route path='/*' element={<Error />} />
+
+        </Routes>
+
+        <Footer />
+
+      </Router>
+
+    </div >
+
+  )
 }
 
-export default App;
+export default App
