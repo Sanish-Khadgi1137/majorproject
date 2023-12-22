@@ -9,16 +9,25 @@ import mica from '../../assets/z2.jpg'
 import bica from '../../assets/z3.jpg'
 import lica from '../../assets/z4.jpg'
 
+
+
 const Gallery = () => {
     return (
 
-        <div className='gimg'>            <h1>Gallery </h1>
+        <div>
+            
 
-            <img src={pica} alt='not found'></img><img
-                src={mica} alt='not found'></img><img
-                src={bica} alt='not found'></img><img
-                src={lica} alt='not found'></img><img
-                    src="gffd" alt='not found'></img>
+            <main>
+                <section>Autolender/Gallery </section>
+
+                <img src={pica} alt='not found'></img>
+                <img src={mica} alt='not found'></img>
+                <img src={bica} alt='not found'></img>
+                <img src={lica} alt='not found'></img>
+                <img src="gffd" alt='not found'></img>
+            
+            </main>
+
 
 
         </div>
