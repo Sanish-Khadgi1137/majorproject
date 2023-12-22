@@ -1,5 +1,7 @@
 import React from 'react'
 
+import "./gallery.css"
+
 
 //put any name for image eg"pica"
 import pica from '../../assets/z1.jpg'
@@ -9,18 +11,22 @@ import lica from '../../assets/z4.jpg'
 
 const Gallery = () => {
     return (
-        <div > <h1>Gallery </h1>
 
-            {/* //name of the image is used eg"pica" */}
-            <img src={pica} width={300} height={200} alt='not found'></img>
+        <div className='gimg'>            <h1>Gallery </h1>
 
+            <img src={pica} alt='not found'></img><img
+                src={mica} alt='not found'></img><img
+                src={bica} alt='not found'></img><img
+                src={lica} alt='not found'></img><img
+                    src="gffd" alt='not found'></img>
 
-            <img src={mica} width={300} height={200} alt='not found'></img>
-            <img src={bica} width={300} height={200} alt='not found'></img>
-            <img src={lica} width={300} height={200} alt='not found'></img>
-            <img src="gffdgdgf" width={300} height={200} alt='not found'></img>
 
         </div>
+
+
+
+
+
 
 
     )

@@ -10,6 +10,8 @@ import Gallery from './components/gallery/Gallery'
 import Login from './components/loginsignup/Login'
 import Signup from './components/loginsignup/Signup'
 
+import Modelai from './components/aimodel/Modelai'
+
 import Error from './components/error/Error'
 
 import Footer from './components/footer/Footer'
@@ -29,7 +31,8 @@ const App = () => {
           <Route path='/' element={<Autolender />} />
           <Route path='/loanscheme' element={<Loanscheme />} />
           {/* //no space in element */}
-
+          
+          <Route path='/modelai' element={<Modelai />} />
 
           <Route path='/gallery' element={<Gallery />} />
           <Route path='/login' element={<Login />} />

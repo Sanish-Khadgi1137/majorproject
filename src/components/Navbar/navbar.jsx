@@ -1,5 +1,6 @@
 import React from 'react'
 
+import './navbar.css'
 
 import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import '../../../node_modules/bootstrap/dist/js/bootstrap.bundle.min'
@@ -26,8 +27,13 @@ const Navbar = () => {
                                 <a className="nav-link active" aria-current="page" href="/Gallery">Gallery</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" align='right' href="/Login">Log in/Sign up</a>
+                                <a className="nav-link active" aria-current="page" href="/Modelai">AI Model</a>
                             </li>
+                            
+                            <span><li className="nav-item">
+                                <a className="nav-link active" aria-current="page" align-items='end' href="/Login">Log in/Sign up</a>
+                            </li></span>
+                            
 
                             {/* // for link 
                           <li className="nav-item">

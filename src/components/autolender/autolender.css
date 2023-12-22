@@ -1,13 +1,12 @@
-/* #about {
-    margin-top: -5rem;
-} */
-
 /* .about__container {
     display: grid;
     grid-template-columns: 35% 50%;
     gap: 15%;
 } */
 /* for back ground shadow of image */
+body{
+    background-color:beige;
+}
 .about__me {
     /* width: 100%; */
     aspect-ratio: 1/1;
