@@ -1,0 +1,11 @@
+h1{
+    margin:  10px 150px;
+}
+table{
+    border: 2px solid black;
+    margin: 0 150px;
+
+}
+th,td{
+    border: 1px solid black
+}

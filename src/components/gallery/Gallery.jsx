@@ -20,10 +20,23 @@ const Gallery = () => {
             <main>
                 <section>Autolender/Gallery </section>
 
-                <img src={pica} alt='not found'></img>
-                <img src={mica} alt='not found'></img>
-                <img src={bica} alt='not found'></img>
-                <img src={lica} alt='not found'></img>
+                <img src={pica} alt='pica'></img>
+                <img src={mica} alt='mica'></img>
+                <img src={bica} alt='bica'></img>
+                <img src={lica} alt='lica'></img>
+                
+
+                <img src={pica} alt='pica'></img>
+                <img src={mica} alt='mica'></img>
+                <img src={bica} alt='bica'></img>
+                <img src={lica} alt='lica'></img>
+                
+
+                <img src={pica} alt='pica'></img>
+                <img src={mica} alt='mica'></img>
+                <img src={bica} alt='bica'></img>
+                <img src={lica} alt='lica'></img>
+                <img src={mica} alt='mica'></img>
                 <img src="gffd" alt='not found'></img>
             
             </main>
