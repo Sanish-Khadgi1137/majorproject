@@ -3,7 +3,7 @@ import React from 'react'
 const Modelai = () => {
   return (
       <div>
-          <h1>AI Model coming soon...</h1>
+          <h1>AI Model CComing soon....</h1>
     </div>
   )
 }
